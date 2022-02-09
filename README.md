@@ -1,4 +1,4 @@
-## codeCademy Full Stack Engineer Path@30% project
+## codeCademy Full Stack Engineer Path@31% project
 **live version here: https://elimullan.github.io/hiking-ireland/**
 
 #### Challenge Project: Company Home Page with Flexbox
