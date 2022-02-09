@@ -116,6 +116,10 @@ main #where figure {
     background-color: whitesmoke;
 }
 
+main section figure h3 {
+    text-align: center;
+}
+
 main section figcaption {
     padding-top: 1rem;
     text-align: center;
