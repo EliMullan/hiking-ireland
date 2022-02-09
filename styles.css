@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Playfare Display SC", Helvetica, Arial, sans-serif; 
+    background-color: #7b9dca;
+    color: white;
+}
+
+h1 {    
+    letter-spacing: .9rem;
+    font-size: 5rem;
+    
+    margin-top: 0;
+    text-shadow: 0px 1px 3px rgba(56,24,15,0.74);    
+}
+
+h2 {
+   font-family: "Roboto Mono", Helvetica, Arial, sans-serif; 
+   padding: 1rem;
+   text-align: center;
+   text-shadow: 0px 1px 3px rgba(56,24,15,0.74); 
+  }
+
+h3 {
+    font-family: "Roboto Mono", Helvetica, Arial, sans-serif; 
+    text-shadow: 0px 1px 3px rgba(56,24,15,0.74); 
+ }
+
+
+/*header*/
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+/*what we do*/
+
+header {
+    background-image: url('media/images/hiking.jpg');
+    background-size: cover;
+    height: 40rem;
+}
+
+header section {        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+header h2 {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+/* main */
+/* where we go */
+main #where {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+main #where figure {
+    flex-grow: 1;
+    width: 25%;
+    -webkit-box-shadow: 0px 8px 15px -2px #000000; 
+    box-shadow: 0px 8px 15px -2px #000000;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #d0d3c4;
+}
+
+main section figcaption {
+    padding-top: 1rem;
+    text-align: center;
+    color: black;
+}
+
+main #who div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main #who figure {
+    width: 25%;
+    -webkit-box-shadow: 0px 8px 15px -2px #000000; 
+    box-shadow: 0px 8px 15px -2px #000000;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    transform: rotate(-3deg);
+    color:black;    
+}
+
+main #who figure:last-child {
+    transform: rotate(5deg); 
+}
+
+/* footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:center;
+  }
+
+  footer p:last-child {
+      text-align:left;
+  }
+
